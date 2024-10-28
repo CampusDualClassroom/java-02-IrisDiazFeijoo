@@ -27,6 +27,7 @@ class Exercise02Test {
     void tearDown() {
         System.setOut(this.originalOut);
         System.setErr(this.originalErr);
+    }
 
     @Test
     @DisplayName("Test if the circumference area is correct")
